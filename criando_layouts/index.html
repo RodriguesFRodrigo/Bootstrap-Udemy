@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <!-- Importe o style.css antes do bootstrap. A sobreposição não funciona sem usar important. -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <!-- break points. -->
+  <h1>Seção de Layout</h1>
+  <button class="btn btn-danger">Internacional</button>
+
+  <!-- containers. -->
+  <div class="container">
+    <h2>Título da sessão</h2>
+    <p>Texto da sessão.</p>
+    <p>Texto da sessão.</p>
+  </div>
+
+  <!-- containers fluid. -->
+  <div class="container-fluid">
+    <h2>Título da sessão</h2>
+    <p>Texto da sessão.</p>
+    <p>Texto da sessão.</p>
+  </div>
+
+  <!-- containers breakpoint. -->
+  <div class="container-sm">
+    <h2>Título da sessão</h2>
+    <p>Texto da sessão.</p>
+    <p>Texto da sessão.</p>
+  </div>
+
+  <div class="container-md">
+    <h2>Título da sessão</h2>
+    <p>Texto da sessão.</p>
+    <p>Texto da sessão.</p>
+  </div>
+
+  <div class="container-lg">
+    <h2>Título da sessão</h2>
+    <p>Texto da sessão.</p>
+    <p>Texto da sessão.</p>
+  </div>
+
+  <!-- Criando Grids. -->
+  <div class="tabela-libertadores">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">Clube</div>
+        <div class="col-1">Pts</div>
+        <div class="col-1">PJ</div>
+        <div class="col-1">VIT</div>
+        <div class="col-1">E</div>
+        <div class="col-1">DER</div>
+        <div class="col-1">GM</div>
+        <div class="col-1">GC</div>
+        <div class="col-1">SG</div>
+      </div>
+      <div class="row">
+        <div class="col-4">Nacional</div>
+        <div class="col-1">3</div>
+        <div class="col-1">1</div>
+        <div class="col-1">1</div>
+        <div class="col-1">0</div>
+        <div class="col-1">0</div>
+        <div class="col-1">2</div>
+        <div class="col-1">1</div>
+        <div class="col-1">1</div>
+      </div>
+      <div class="row">
+        <div class="col-4">Internacional</div>
+        <div class="col-1">1</div>
+        <div class="col-1">1</div>
+        <div class="col-1">0</div>
+        <div class="col-1">1</div>
+        <div class="col-1">0</div>
+        <div class="col-1">1</div>
+        <div class="col-1">1</div>
+        <div class="col-1">0</div>
+      </div>
+      <div class="row">
+        <div class="col-4">Independiente Medellín</div>
+        <div class="col-1">1</div>
+        <div class="col-1">1</div>
+        <div class="col-1">0</div>
+        <div class="col-1">1</div>
+        <div class="col-1">0</div>
+        <div class="col-1">1</div>
+        <div class="col-1">1</div>
+        <div class="col-1">0</div>
+      </div>
+      <div class="row">
+        <div class="col-4">Metropolitanos</div>
+        <div class="col-1">0</div>
+        <div class="col-1">1</div>
+        <div class="col-1">0</div>
+        <div class="col-1">0</div>
+        <div class="col-1">1</div>
+        <div class="col-1">1</div>
+        <div class="col-1">2</div>
+        <div class="col-1">-1</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Alinhamento vertical. -->
+  <!-- Alinhamento horizontal. -->
+  <div class="alinhamento-vertical">
+    <div class="container">
+      <!-- row é um container flex. -->
+      <div class="row align-items-center justify-content-center">
+        <div class="col-6">
+          Alinhameto Vertical
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Alinhamento de item. -->
+  <div class="alinhamento-de-item">
+    <div class="container">
+      <div class="row">
+        <div class="col">Teste 1</div>
+        <div class="col align-self-center">Teste 2</div>
+        <div class="col">Teste 3</div>
+        <div class="col align-self-center">Teste 4</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ordem dos elementos. -->
+  <!-- Offset de colunas. -->
+  <!-- Gutter. -->
+</body>
+
+</html>

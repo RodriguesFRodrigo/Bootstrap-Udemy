@@ -1,0 +1,94 @@
+/* Sobreposição a nível de tag */
+h1 {
+    color: red;
+}
+
+/* Sobreposição a nível de classe */
+.btn-danger {
+    background-color: white;
+    color: red;
+}
+
+/* Não temos classes no Bootstrap para alterar os estilos em diferentes breakpoints. */
+/* Precisamos criar os breakpoints e especificar os estilos. */
+/* sm: >= 576px */
+@media(min-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* md: >= 768px */
+@media(min-width: 768px) {
+    h1 {
+        color: orange;
+    }
+}
+
+/* lg: >= 992 */
+@media(min-width: 992px) {
+    h1 {
+        color: yellow;
+    }
+}
+
+/* xl: >= 1200px */
+@media(min-width: 1200px) {
+    h1 {
+        color: green;
+    }
+}
+
+.container {
+    background-color: red;
+}
+
+.container-fluid {
+    background-color: orange;
+}
+
+.container-sm {
+    background-color: chocolate;
+}
+
+.container-md {
+    background-color: greenyellow;
+}
+
+.container-lg {
+    background-color: hotpink;
+}
+
+.tabela-libertadores .container {
+    background-color: white;
+    padding: 10px;
+}
+
+.tabela-libertadores .row {
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.tabela-libertadores .col {
+    background-color: tomato;
+}
+
+.alinhamento-vertical .container {
+    background-color: black;
+    height: 200px;
+    padding: 20px 40px;
+}
+
+.alinhamento-vertical .row {
+    border: 1px solid white;
+    height: 100px;
+}
+
+
+.alinhamento-vertical .col-6 {
+    background-color: greenyellow;
+}
+
+.alinhamento-de-item .row {
+    height: 200px;
+}
